@@ -90,4 +90,4 @@ User->>Server: HTTP GET https://227demo.djosv.com/new_place_spa
   ![image](https://user-images.githubusercontent.com/115175115/214156396-773faa86-bbaf-4e15-895c-b4f299502897.png)
 
 
-   
+----------------------------------------------- THANK YOU -----------------------------------------------------------------------------------------   
