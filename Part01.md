@@ -77,7 +77,14 @@ User->>Server: HTTP GET https://227demo.djosv.com/new_place_spa
       
     
 
-      
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  Exercise 0.9
+  
+  Screenshot
+  
+  ![image](https://user-images.githubusercontent.com/115175115/214154142-44bbd7b9-1beb-4eb6-8066-ad94e0b09daf.png)
+
     
 
    
