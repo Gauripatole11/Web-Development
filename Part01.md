@@ -1,4 +1,6 @@
+# COMP 227
 
+lab0
 PROBLEM 0.4
 
 ![image](https://user-images.githubusercontent.com/115175115/213903003-addcd07e-a48b-48c7-ad0b-143ab51ce5ed.png)
@@ -7,38 +9,47 @@ PROBLEM 0.4
 
 SOLUTION-
 
-[![](https://mermaid.ink/img/pako:eNqdkj9vwjAQxb-KdXP-QBgqeWCoitqhkZDIVi8n-4Cg2E5th6qN8t3rJAxkYMHj3b3fO9uvB2kVAQdP3x0ZSW81nhxqYV6d_fHk0u32QO5KjrOPqtqz913FziG0nud5Ubwo0jZTF-uvmbQ6bxuU5IVh8cyyqL-RRkD5mY5-88BTDhprk0n_0GPZf97i8sCB8UX7KQOFASPBmiXjDvLVM4OaOBOwa9ge_2R9rKUVkLAonurFqtikq3W63ggYEpZli33vn0RASd7jiQRw1k9fxKSjyFHDLIIENLl4MRWT0I81AeFMelIIUHTErgkChBniKHbBHn6NBB5cRwl07bjTLTjAj9j4WCVVB-vKOV1TyIZ_EXrMQQ?type=png)](https://mermaid.live/edit#pako:eNqdkj9vwjAQxb-KdXP-QBgqeWCoitqhkZDIVi8n-4Cg2E5th6qN8t3rJAxkYMHj3b3fO9uvB2kVAQdP3x0ZSW81nhxqYV6d_fHk0u32QO5KjrOPqtqz913FziG0nud5Ubwo0jZTF-uvmbQ6bxuU5IVh8cyyqL-RRkD5mY5-88BTDhprk0n_0GPZf97i8sCB8UX7KQOFASPBmiXjDvLVM4OaOBOwa9ge_2R9rKUVkLAonurFqtikq3W63ggYEpZli33vn0RASd7jiQRw1k9fxKSjyFHDLIIENLl4MRWT0I81AeFMelIIUHTErgkChBniKHbBHn6NBB5cRwl07bjTLTjAj9j4WCVVB-vKOV1TyIZ_EXrMQQ)
+[![](https://mermaid.ink/img/pako:eNqdkj9vwjAQxb-KdXP-QBgqeWCoitoBJCSy1cvJvpSg2A62Q9VG-e51CEMzsMSLpbt773eWXw_SKgIOnq4dGUlvNX451MK8OvvtyaXb7YncjRxnH2V5ZO-7kp1DaD3P86J4UaRtpi7W3zJpdd42KMkLw-KZZFH_cBoNDvt05E0Diwgaa5NJ_5Qx7y9HXJ4QGJ-1FwEUBowO1swQ_1_x2TODmjgTsGvYEX9lXdXSCkhYFN_rxarYpKt1ut4IGBKWZZMZmy5IQJOLq6r4t_1YExDOpEnAKFZUYdcEAcIMcRS7YE8_RgIPrqMEunakPKIAvMLGxyqpOlh3mPJyj83wB0a_u8Y?type=png)](https://mermaid.live/edit#pako:eNqdkj9vwjAQxb-KdXP-QBgqeWCoitoBJCSy1cvJvpSg2A62Q9VG-e51CEMzsMSLpbt773eWXw_SKgIOnq4dGUlvNX451MK8OvvtyaXb7YncjRxnH2V5ZO-7kp1DaD3P86J4UaRtpi7W3zJpdd42KMkLw-KZZFH_cBoNDvt05E0Diwgaa5NJ_5Qx7y9HXJ4QGJ-1FwEUBowO1swQ_1_x2TODmjgTsGvYEX9lXdXSCkhYFN_rxarYpKt1ut4IGBKWZZMZmy5IQJOLq6r4t_1YExDOpEnAKFZUYdcEAcIMcRS7YE8_RgIPrqMEunakPKIAvMLGxyqpOlh3mPJyj83wB0a_u8Y)
 
-<!-- 
-sequenceDiagram
-    Browser->>Server: HTTP GET https://227demo.djosv.com/places
+
+<!-- sequenceDiagram
+Browser->>Server: HTTP GET https://227demo.djosv.com/places
     Server->>Browser: HTML-code
     Browser->>Server: HTTP GET https://227demo.djosv.com/main.css
     Server->>Browser: main.css
     Browser->>Server: HTTP GET https://227demo.djosv.com/main.js
-    Browser->>Server :main.js
-    Browser->Server: HTTP GET https://227demo.djosv.com/data.json
-    Server-->Browser: [{ name: "El Pazcifico", date: "2023-01-13"}, ..
-   -->
-   
- ![image](https://user-images.githubusercontent.com/115175115/213903189-a538d7ad-010c-4881-b734-83942315491a.png)
+    Server->>Browser :main.js
+    Browser->>Server: HTTP GET https://227demo.djosv.com/data.json
+    Server-->>Browser: [{ name: "El Pazcifico", date: "2023-01-13"}, .. -->
+    
+    
+   ![image](https://user-images.githubusercontent.com/115175115/214149304-85642929-3367-40a9-9e55-a62d72f91ac5.png)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------   
 PROBLEM 0.5
  
  ![image](https://user-images.githubusercontent.com/115175115/213903289-018f97a7-b15c-46e0-a23f-b7775559ee14.png) 
  
-   [![](https://mermaid.ink/img/pako:eNqdkj1rwzAQhv-KuNkfiTsUNGRqSYcGDHGnahHSpXGwPqqP0GL83yvFzWCaoUSbdPc878FpBGEkAgWPnxG1wKeefziumCbpvHl05WazR3dGR8lL17Vk-9yRYwjW07pumkeJylTyZPy5EkbV3vIZnZkEZ0dGd69ljrpXjF9c2QG5tSmiVrzXlfD-pm1Z_DPIPVGnW0mELmrXoH_nSB54oo1e8FfB-0jagQukhEEbNTIoSCIu92bVPJSrddmsGUwFqSooQKFL48i0yjH7GIQjqkTlfokHHofAgOkptfIYzP5bC6DBRSwg2iz-3TzQAx98ekXZB-N28_e4_JLpBxF9tmw?type=png)](https://mermaid.live/edit#pako:eNqdkj1rwzAQhv-KuNkfiTsUNGRqSYcGDHGnahHSpXGwPqqP0GL83yvFzWCaoUSbdPc878FpBGEkAgWPnxG1wKeefziumCbpvHl05WazR3dGR8lL17Vk-9yRYwjW07pumkeJylTyZPy5EkbV3vIZnZkEZ0dGd69ljrpXjF9c2QG5tSmiVrzXlfD-pm1Z_DPIPVGnW0mELmrXoH_nSB54oo1e8FfB-0jagQukhEEbNTIoSCIu92bVPJSrddmsGUwFqSooQKFL48i0yjH7GIQjqkTlfokHHofAgOkptfIYzP5bC6DBRSwg2iz-3TzQAx98ekXZB-N28_e4_JLpBxF9tmw)
-  
+
+[![](https://mermaid.ink/img/pako:eNqtkstqwzAQRX9FzNqPxF0UtMiqJV00YIi7qjaDNGkcrEf1CC3G_145LoVANoFqIzRX954RmhGkVQQcAn0mMpKeevzwqIV5C-TLzWZP_kyes5eua9n2uWPHGF3gdd00j4q0rdTJhnMlra6DQ2FYXosnm-eM2bp7LWfMot4fTF-o3UDoXEbUGntTyRBusq7Ff0GdbpEYv9LuBymMmO3WXIX_veN9ZO2AkjgT0CZDAgqWLZdzs2oeytW6bNYCpoJV1RLBlg0K0ORzdyr_6jjXBMQj6RwxmxUdMA1RgDBTvoop2v23kcCjT1RAcjPldwiAH3AIuUqqj9bvlkm5DMz0A91UuRw?type=png)](https://mermaid.live/edit#pako:eNqtkstqwzAQRX9FzNqPxF0UtMiqJV00YIi7qjaDNGkcrEf1CC3G_145LoVANoFqIzRX954RmhGkVQQcAn0mMpKeevzwqIV5C-TLzWZP_kyes5eua9n2uWPHGF3gdd00j4q0rdTJhnMlra6DQ2FYXosnm-eM2bp7LWfMot4fTF-o3UDoXEbUGntTyRBusq7Ff0GdbpEYv9LuBymMmO3WXIX_veN9ZO2AkjgT0CZDAgqWLZdzs2oeytW6bNYCpoJV1RLBlg0K0ORzdyr_6jjXBMQj6RwxmxUdMA1RgDBTvoop2v23kcCjT1RAcjPldwiAH3AIuUqqj9bvlkm5DMz0A91UuRw)
  
+
+![image](https://user-images.githubusercontent.com/115175115/214152057-502fb7e7-669d-459a-b3e0-68826ea81489.png)
+
+
+
+
+
 <!--    sequenceDiagram
+  
     User->>Server: HTTP GET https://227demo.djosv.com/spa
     Server->>User: HTML-code
     User->>Server: HTTP GET https://227demo.djosv.com/exampleappspa/main.css
-    User->>Server: main.css
-    Server->>User: HTTP GET https://227demo.djosv.com/exampleappspa/main.js
-    User->>Server :main.js
-    Server->User: HTTP GET https://227demo.djosv.com/data.json
-    Server-->User: [{ Place: "Pune", date: "2023-01-21"}, .. -->
+    Server->>User: main.css
+    User->>Server: HTTP GET https://227demo.djosv.com/exampleappspa/main.js
+    Server->>User :main.js
+    User->>Server: HTTP GET https://227demo.djosv.com/data.json
+    Server-->>User: [{ Place: "Pune", date: "2023-01-21"}, .. -->
     
   ![image](https://user-images.githubusercontent.com/115175115/213903649-d0ea550c-a2f1-4c77-b7e7-029ebc611f05.png)
   
@@ -53,8 +64,7 @@ PROBLEM 0.6
 
 Solution-
 
-[![](https://mermaid.ink/img/pako:eNotj0FrAjEQhf9KmLO64KWQg6eW9lIo7HoLyJA865ZNsiYTRcT_btZ0DsPwePPNvDvZ6ECaMs4FweJ95N_E3gRVa5-R1rtdj3RB0uprGH7U58egTiJz1l233b45-LhxfzFfNjb6LuB6mCe2OOSZG6RtV8xCU_oF6YWlZKWW48omsMA1d-u0Io_keXT1tfuiGZITPAzpOjocuUxiyIRHtXKR2N-CJS2pYEVldhX4n4T0kadcVbhRYvpucV-pH0_RvVRG?type=png)](https://mermaid.live/edit#pako:eNotj0FrAjEQhf9KmLO64KWQg6eW9lIo7HoLyJA865ZNsiYTRcT_btZ0DsPwePPNvDvZ6ECaMs4FweJ95N_E3gRVa5-R1rtdj3RB0uprGH7U58egTiJz1l233b45-LhxfzFfNjb6LuB6mCe2OOSZG6RtV8xCU_oF6YWlZKWW48omsMA1d-u0Io_keXT1tfuiGZITPAzpOjocuUxiyIRHtXKR2N-CJS2pYEVldhX4n4T0kadcVbhRYvpucV-pH0_RvVRG)
-
+[![](https://mermaid.ink/img/pako:eNo1j00LwjAMhv9KyVk38CL0sJOiBweC81aQ0EadrB_2YyKy_27rMJeEl-TJ-35AWkXAIdAzkZG06fHmUQtzDuSXTXMiP5LnbN91R7bbduweowu8rlertSJtK_WwYayk1bWh18UNKOkSHAozX2ZEIRVAe1iWZ8KwUnODBWjyGnuVPXyKJiDeSZMAnkdFV0xDFCDMlFcxRXt6Gwk8-kQLSE5h_FsGfsUhZJVUH61v51y_eNMXXbZNrA?type=png)](https://mermaid.live/edit#pako:eNo1j00LwjAMhv9KyVk38CL0sJOiBweC81aQ0EadrB_2YyKy_27rMJeEl-TJ-35AWkXAIdAzkZG06fHmUQtzDuSXTXMiP5LnbN91R7bbduweowu8rlertSJtK_WwYayk1bWh18UNKOkSHAozX2ZEIRVAe1iWZ8KwUnODBWjyGnuVPXyKJiDeSZMAnkdFV0xDFCDMlFcxRXt6Gwk8-kQLSE5h_FsGfsUhZJVUH61v51y_eNMXXbZNrA)
 Code
 
 <!-- <sequenceDiagram
@@ -67,4 +77,17 @@ User->>Server: HTTP GET https://227demo.djosv.com/new_place_spa
       
     
 
-   
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  Exercise 0.9
+  
+  Screenshot- Webstorm IDE
+  
+  ![image](https://user-images.githubusercontent.com/115175115/214154142-44bbd7b9-1beb-4eb6-8066-ad94e0b09daf.png)
+
+  Screenshot- nvm version
+  
+  ![image](https://user-images.githubusercontent.com/115175115/214156396-773faa86-bbaf-4e15-895c-b4f299502897.png)
+
+
+----------------------------------------------- THANK YOU -----------------------------------------------------------------------------------------   
