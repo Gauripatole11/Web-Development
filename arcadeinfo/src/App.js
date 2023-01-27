@@ -1,23 +1,28 @@
 const App = () => {
     // const-definitions
     const company = 'Nintendo'
-    const handheld1 = {
-        name: 'Game Boy',
-        games: 1046
-    }
-    const handheld2 = {
-        name: 'Game Boy Advance',
-        games: 1538
-    }
-    const handheld3 = {
-        name: 'DS',
-        games: 1791
-    }
+    const handhelds = [
+        {
+            name: 'Game Boy',
+            games: 104
+        },
+        {
+            name: 'Game Boy Advance',
+            games: 1538
+        },
+        {
+            name: 'DS',
+            games: 1791
+        }
+    ]
 
+    let handheld1;
+    let handheld2;
+    let handheld3;
     return (
         <div>
             <Header company={company.name} />
-            <Content handheld1={handheld1} handheld2={ handheld2} handheld3={handheld3}/>
+            <Content Handheld={handheld1} handheld2={ handheld2} handheld3={handheld3}/>
             <Total Handheld={Handheld} />
         </div>
     )
@@ -28,7 +33,7 @@ const Content = (props) => {
     const name1 = 'Game Boys'
     const name2 = 'Game Boys Advanced'
     const name3 = 'DS'
-    const course1 = 1046
+    const course1 = 104
     const course2 = 1538
     const course3 = 1791
 
@@ -42,7 +47,7 @@ const Content = (props) => {
 }
 
 const Total = () => {
-    const game1 = 1043
+    const game1 = 104
     const game2 = 1538
     const game3 = 1791
 
@@ -53,6 +58,7 @@ const Total = () => {
     )
 }
 const Header = (props) => {
+    console.log(props)
     return (
         <div>
             <h1>{props.company}</h1>
