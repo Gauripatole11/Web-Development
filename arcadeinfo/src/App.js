@@ -25,12 +25,12 @@ const App = () => {
 
 const Content = (props) => {
     console.log(props)
-    const name1 = 'CS Students'
-    const name2 = 'BA Students'
-    const name3 = 'Finance Students'
-    const course1 = 100
-    const course2 = 200
-    const course3 = 300
+    const name1 = 'Game Boys'
+    const name2 = 'Game Boys Advanced'
+    const name3 = 'DS'
+    const course1 = 1046
+    const course2 = 1538
+    const course3 = 1791
 
     return (
         <div>
@@ -42,13 +42,13 @@ const Content = (props) => {
 }
 
 const Total = () => {
-    const course1 = 100
-    const course2 = 200
-    const course3 = 300
+    const game1 = 1043
+    const game2 = 1538
+    const game3 = 1791
 
     return (
         <div>
-            <p>Number of courses {course1 + course2 + course3}</p>
+            <p>Number of games {game1 + game2 + game3}</p>
         </div>
     )
 }
