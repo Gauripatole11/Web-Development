@@ -1,24 +1,36 @@
 const App = () => {
     // const-definitions
-    const company = "University of the Pacific"
-
+    const company = 'Nintendo'
+    const handheld1 = {
+        name: 'Game Boy',
+        games: 1046
+    }
+    const handheld2 = {
+        name: 'Game Boy Advance',
+        games: 1538
+    }
+    const handheld3 = {
+        name: 'DS',
+        games: 1791
+    }
 
     return (
         <div>
-            <Header company={company} />
-            <Content />
-            <Total />
+            <Header company={company.name} />
+            <Content handheld1={handheld1} handheld2={ handheld2} handheld3={handheld3}/>
+            <Total Handheld={Handheld} />
         </div>
     )
 }
 
-const Content = () => {
-    const name1 = 'Game Boy'
-    const name2 = 'Game Boy Advance'
-    const name3 = 'DS'
-    const course1 = 1046
-    const course2 = 1538
-    const course3 = 1791
+const Content = (props) => {
+    console.log(props)
+    const name1 = 'CS Students'
+    const name2 = 'BA Students'
+    const name3 = 'Finance Students'
+    const course1 = 100
+    const course2 = 200
+    const course3 = 300
 
     return (
         <div>
@@ -30,9 +42,9 @@ const Content = () => {
 }
 
 const Total = () => {
-    const course1 = 1046
-    const course2 = 1538
-    const course3 = 1791
+    const course1 = 100
+    const course2 = 200
+    const course3 = 300
 
     return (
         <div>
@@ -59,4 +71,3 @@ const Handheld = (props) => {
 }
 
 export default App
-
