@@ -1,3 +1,7 @@
+//Exercise 1.4
+
+//CODE
+
 const App = () => {
     // const-definitions
     const course = 'COMP 227 WEB DEVELOPMENT'
