@@ -1,27 +1,22 @@
-//EXERCISE 1.5
-
-//CODE
 const App = () => {
-
-    const course = {
-        name: 'COMP 227 WEB DEVELOPMENT',
-        handhelds: [
-            {
-                part0: 'Part 0',
-                exercise0: 11
-            },
-            {
-                part1: 'Part 1 (1a - 1c)',
-                exercise1: 9
-            }
-        ]
-    }
+    // const-definitions
+    const course = 'COMP 227'
+    const handhelds = [
+        {
+            part: 'Part 0',
+            exercise: 9
+        },
+        {
+            part: 'Part 1',
+            exercise: 5
+        }
+    ]
 
     return (
         <div>
-            <Header course={course.name} />
-            <Content part0={course.handhelds[0].part0} part1={course.handhelds[1].part1} part0exercise={course.handhelds[0].exercise0} part1exercise={course.handhelds[1].exercise1} />
-            <Total part0exercise={course.handhelds[0].exercise0} part1exercise={course.handhelds[1].exercise1} />
+            <Header course={course} />
+            <Content handhelds={handhelds} />
+            <Total handhelds={handhelds} />
         </div>
     )
 }
@@ -30,8 +25,8 @@ const Content = (props) => {
 
     return (
         <div>
-            <Handheld part={props.part0} partexercise={props.part0exercise} />
-            <Handheld part={props.part1} partexercise={props.part1exercise} />
+            <Handheld part={props.handhelds[0].part} partexercise={props.handhelds[0].exercise} />
+            <Handheld part={props.handhelds[1].part} partexercise={props.handhelds[1].exercise} />
         </div>
     )
 }
@@ -40,7 +35,7 @@ const Total = (props) => {
 
     return (
         <div>
-            <p>There are total {props.part0exercise + props.part1exercise} exercises overall</p>
+            <p>There are total {props.handhelds[0].exercise + props.handhelds[1].exercise} exercises</p>
         </div>
     )
 }
@@ -56,7 +51,7 @@ const Handheld = (props) => {
     return (
         <div>
             <p>
-                {props.part} consists {props.partexercise} exercises
+                {props.part} has {props.partexercise} exercises
             </p>
         </div>
     )
