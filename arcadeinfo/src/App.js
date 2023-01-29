@@ -1,67 +1,53 @@
+
+// Exercise 1.3
+
+//Code
+
 const App = () => {
     // const-definitions
-    const company = 'Nintendo'
+    const course = 'COMP 227 WEB DEVELOPMENT'
     const handhelds = [
         {
-            name: 'Game Boy',
-            games: 104
+            part0: 'Part 0',
+            exercise0: 11
         },
         {
-            name: 'Game Boy Advance',
-            games: 1538
-        },
-        {
-            name: 'DS',
-            games: 1791
+            part1: 'Part 1',
+            exercise1: 9
         }
     ]
 
-    let handheld1;
-    let handheld2;
-    let handheld3;
     return (
         <div>
-            <Header company={company.name} />
-            <Content Handheld={handheld1} handheld2={ handheld2} handheld3={handheld3}/>
-            <Total Handheld={Handheld} />
+            <Header course={course} />
+            <Content part0={handhelds[0].part0} part1={handhelds[1].part1} part0exercise={handhelds[0].exercise0} part1exercise={handhelds[1].exercise1} />
+            <Total part0exercise={handhelds[0].exercise0} part1exercise={handhelds[1].exercise1} />
         </div>
     )
 }
 
 const Content = (props) => {
-    console.log(props)
-    const name1 = 'Game Boys'
-    const name2 = 'Game Boys Advanced'
-    const name3 = 'DS'
-    const course1 = 104
-    const course2 = 1538
-    const course3 = 1791
 
     return (
         <div>
-            <Handheld name={name1} course={course1} />
-            <Handheld name={name2} course={course2} />
-            <Handheld name={name3} course={course3} />
+            <Handheld part={props.part0} partexercise={props.part0exercise} />
+            <Handheld part={props.part1} partexercise={props.part1exercise} />
         </div>
     )
 }
 
-const Total = () => {
-    const game1 = 104
-    const game2 = 1538
-    const game3 = 1791
+const Total = (props) => {
 
     return (
         <div>
-            <p>Number of games {game1 + game2 + game3}</p>
+            <p>There are total {props.part0exercise + props.part1exercise} exercises overall</p>
         </div>
     )
 }
 const Header = (props) => {
-    console.log(props)
     return (
         <div>
-            <h1>{props.company}</h1>
+            <h1>{props.course}</h1>
         </div>
     )
 }
@@ -70,7 +56,7 @@ const Handheld = (props) => {
     return (
         <div>
             <p>
-                {props.name} {props.course}
+                {props.part} consists {props.partexercise} exercises
             </p>
         </div>
     )
